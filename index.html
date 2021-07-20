@@ -5,22 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
     <title>Allied Mobile Imaging</title>
 </head>
 <body>
 <form action="">
     <div class="container">
-      <div class="row">
+      <div class="row2">
           <img id="logo" src="images/logo.png" alt="">
           <div>
                  <label for="">Order Date</label>
                  <input type="date">
               <div>
-                  <input type="checkbox"> &nbsp;
-                  <span>STAT, Please Call</span>&nbsp;
-                  <input type="checkbox">&nbsp;
-                  <span>ROUTINE</span>
+                  <br>
+                  <div class="d-flex">
+                      <input type="checkbox"> &nbsp;
+                      <span>STAT, Please Call</span>&nbsp;
+                      <input type="checkbox">&nbsp;
+                      <span>ROUTINE</span>
+                  </div>
               </div>
           </div>
           <div>
@@ -33,58 +36,87 @@
     <div class="row">
         <div class="section">
             <p class="heading bg-dark">PATIENT INFORMATION</p>
-            <label for="">Name:</label>
-            <input class="full-width" type="text">
-            <label for="">Phone No:</label>
-            <input class="full-width" type="text">
-            <label for="">DOB:</label>
-            <input class="full-width" type="date">
-            <label for="">Address/Facility:</label>
-            <input class="full-width" type="text">
-            <label for="">City, State, Zip:</label>
-            <input class="full-width" type="text">
-            <label for="">Gender:</label>
-            <input class="full-width" type="text">
-            <label for="">Ordering Physician:</label>
-            <input class="full-width" type="text">
+            <div class="form-control">
+                <label for="">Name: &nbsp;</label>
+                <input class="full-width" type="text">
+            </div>
+            <div class="form-control">
+                <label for="">Phone No: &nbsp;&nbsp;</label>
+                <input class="full-width" type="text">
+            </div>
+            <div class="form-control">
+                <label for="">DOB: &nbsp;</label>
+                <input class="full-width" type="date">
+            </div>
+           <div class="form-control">
+               <label for="">Address/Facility: &nbsp;&nbsp;&nbsp;</label>
+               <input class="full-width" type="text">
+           </div>
+           <div class="form-control">
+               <label for="">City, State, Zip: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input class="full-width" type="text">
+           </div>
+           <div class="form-control">
+               <label for="">Gender: &nbsp;</label>
+               <input class="full-width" type="text">
+           </div>
+            <div class="form-control">
+                <label for="">Ordering Physician: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input class="full-width" type="text">
+            </div>
         </div>
         <div class="section">
             <p class="heading bg-dark">CLIENT INFORMATION</p>
-            <label for="">Name:</label>
-            <input type="text">
-            <label for="">Ordering Contact:</label>
-            <input type="text">
-            <label for="">Ordering Physician:</label>
-            <input type="text">
-            <label for="">Phone No:</label>
-            <input type="text">
-            <label for="">Fax Report to Doctor at:</label>
-            <input type="text">
-            <label for=""><b>*Physician Signature</b></label>
-            <input type="text">
+            <div class="form-control">
+                <label for="">Name: &nbsp;</label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label for="">Ordering Contact: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label for="">Ordering Physician: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label for="">Phone No: &nbsp;&nbsp;&nbsp;</label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label for="">Fax Report to Doctor at: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text">
+            </div>
+            <div class="form-control">
+                <label for=""><b>*Physician Signature: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                <input type="text">
+            </div>
         </div>
     </div>
      <div class="row">
          <div class="section">
              <p class="heading bg-dark">INSURANCE</p>
              <br>
-             <input type="checkbox">
-             Bill Facility &nbsp;&nbsp; OR &nbsp;&nbsp;
-             <input type="checkbox">
-             Bill Insurance (or attach a Face-Sheet) <br>
+             <div style="font-size: 18px;display: flex">
+                 <input type="checkbox">
+                 &nbsp;&nbsp; Bill Facility &nbsp;&nbsp; OR &nbsp;&nbsp;
+                 <input type="checkbox">
+                 &nbsp;&nbsp; Bill Insurance (or attach a Face-Sheet) <br>
+             </div>
+             <br>
             <div class="d-flex">
                 <div class="form-control">
-                    <label for="">Medicare # &nbsp;&nbsp;</label>
+                    <label for="">Medicare # &nbsp;&nbsp;&nbsp;</label>
                     <input type="text">
                 </div>
                 <div class="form-control">
-                    <label for="">&nbsp; Medicaid # &nbsp;&nbsp;</label>
+                    <label for="">&nbsp; Medicaid # &nbsp;&nbsp;&nbsp;</label>
                     <input type="text">
                 </div>
             </div>
              <div class="d-flex">
                  <div class="form-control">
-                     <label for="">Inter Insurance: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <label for="">Inter Insurance: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                      <input type="text">
                  </div>
                  <div class="form-control">
@@ -92,16 +124,22 @@
                      <input type="text">
                  </div>
                  <div class="form-control">
-                     <label for="">&nbsp; GRP # &nbsp;</label>
+                     <label for="">&nbsp; GRP # &nbsp;&nbsp;</label>
                      <input type="text">
                  </div>
              </div>
-             <label for="">Responsible Party Name/Address/Phone</label>
-             <input type="text">
-             <label for="">Reason for Portable Exam</label>
-             <input type="text">
-             <label for="">ICD 10 Diagnostic Codes</label>
-             <input type="text">
+             <div class="form-control">
+                 <label for="">Responsible Party Name/Address/Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                 <input type="text">
+             </div>
+                <div class="form-control">
+                    <label for="">Reason for Portable Exam: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                </div>
+             <div class="form-control">
+                 <label for="">ICD 10 Diagnostic Codes: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                 <input type="text">
+             </div>
          </div>
      </div>
         <div class="row">
