@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial;
+}
+.container
+{
+   
+    margin-top: 50px;
+    padding: 20px;
+}
+.row
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+#logo
+{
+    height: 100px;
+    width: 200px;
+}
+.heading
+{
+    font-size: 20px;
+    color: #066287;
+    font-weight: bold;
+}
+.bg-dark
+{
+    background: #066287;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+.bg-light
+{
+    background: #3a889d;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    padding: 2px;
+    font-size: 16px;
+}
+.d-flex
+{
+    display: flex;
+}
+.section
+{
+    width: 100%;
+    margin: 10px;
+}
+.section input[type=text],.section input[type=date]
+{
+    width: 100%;
+}
+label
+{
+    font-size: 14px;
+    line-height: 40px;
+}
+input[type=text],input[type=date]
+{
+    background: #eeeeee;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+}
+input[type=text]:focus,input[type=date]:focus
+{
+    outline: none;
+    background: none;
+}
+.sub-section
+{
+    width: 100%;
+    margin: 10px;
+    font-size: 12px;
+    /*border: 1px solid black;*/
+}
+.sub-section input[type=text],.section input[type=date]
+{
+    width: 100%;
+}
+.sub-section-flex
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    border: 1px solid black;
+    height: 30px;
+}
